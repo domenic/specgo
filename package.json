@@ -8,12 +8,14 @@
     "whatwg",
     "ietf"
   ],
-  "version": "1.0.0-pre",
+  "version": "1.0.0",
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
   "license": "Apache-2.0",
   "repository": "domenic/specgo",
   "main": "lib/specgo.js",
-  "bin": "lib/cli.js",
+  "bin": {
+    "specgo": "lib/cli.js"
+  },
   "files": [
     "lib/"
   ],
