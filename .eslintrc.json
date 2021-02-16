@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "extends": "@domenic",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-console": "off"
+  }
+}
